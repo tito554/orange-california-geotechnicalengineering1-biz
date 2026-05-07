@@ -19,85 +19,82 @@
 <meta name="twitter:description" content="In Orange County, the category Slopes & Walls addresses the critical intersection of engineered earth retention and natural terrain stability. Local geolog">
 <meta name="twitter:image" content="https://orange-california.geotechnicalengineering1.biz/img/slope-stability-analysis-1.webp">
 <style>
-*{margin:0;padding:0;box-sizing:border-box}
-body{font-family:'IBM Plex Sans',system-ui,sans-serif;background:#F9FAFB;color:#111827;line-height:1.55}
+@media(max-width:900px){.nav{display:none}}
+.nav-item.has-dd .nav-arrow{display:inline-block;margin-left:.3rem;font-size:.85rem;transition:transform .2s}
 a{color:inherit;text-decoration:none}
-.topbar{background:#1F2937;color:#FFF;padding:0 2rem;display:flex;justify-content:space-between;align-items:center;height:80px;position:sticky;top:0;z-index:1010}
-.logo-area{display:flex;align-items:center;gap:.6rem;font-family:"Trebuchet MS", "Lucida Sans Unicode", sans-serif;system-ui,sans-serif}
-.logo-text{font-weight:700;letter-spacing:.02em;line-height:1}
-.logo-text .main{font-size:1.05rem}
-.logo-text .sub{font-size:1.05rem;color:#14B8A6}
-.nav{display:flex;gap:1rem;align-items:center}
-.nav-item{position:relative;font-size:.9rem;color:#FFF;cursor:pointer;padding:.8rem 0;white-space:nowrap}
-.nav-item.has-dd:hover .dd{display:flex}
-.dd{display:none;position:absolute;top:100%;left:-1rem;background:#FFF;min-width:260px;padding:.8rem 0;box-shadow:0 10px 30px rgba(0,0,0,.2);border-top:3px solid #14B8A6;flex-direction:column;z-index:1011;max-height:420px;overflow-y:auto}
-.nav-item.has-dd{padding-bottom:1.5rem;margin-bottom:-1.5rem}
-.dd a{padding:.5rem 1.2rem;color:#111827;font-size:.85rem;display:block;white-space:normal}
-.dd a:hover{background:#F5F5F5;color:#0F766E}
-.nav-contact-btn{background:#0F766E;color:#FFF;padding:.6rem 1.4rem;font-size:.82rem;font-weight:600;letter-spacing:.05em}
-.hero{background:linear-gradient(135deg,#0F766E 0%,#1F2937 100%);min-height:400px;display:flex;align-items:center;padding:2.5rem 2rem;color:#FFF}
-.hero-inner{max-width:900px;margin:0 auto;width:100%}
-.crumb{font-size:.78rem;margin-bottom:1rem;letter-spacing:.03em;color:rgba(255,255,255,.85)}
-.crumb a{color:#FFF;text-decoration:underline;font-weight:600}
-.crumb a:hover{color:#14B8A6}
-.hero h1{font-family:"Trebuchet MS", "Lucida Sans Unicode", sans-serif;sans-serif;font-size:clamp(1.9rem,3.8vw,2.8rem);font-weight:700;letter-spacing:-.01em;margin-bottom:.9rem;line-height:1.15}
-.hero .tagline{font-size:1rem;opacity:.92;margin-bottom:1.5rem;max-width:560px}
-.hero-cta{background:#14B8A6;color:#FFF;padding:.8rem 1.8rem;font-size:.82rem;font-weight:700;letter-spacing:.1em;display:inline-block}
-.container{max-width:1200px;margin:0 auto;padding:0 2rem}
-section.block{padding:3.5rem 0}
-section.block h2{font-family:"Trebuchet MS", "Lucida Sans Unicode", sans-serif;sans-serif;font-size:1.6rem;color:#1F2937;margin-bottom:1.2rem;font-weight:700;letter-spacing:-.01em}
-section.block p{margin-bottom:1rem;line-height:1.7;color:#111827;text-align:justify;hyphens:auto;-webkit-hyphens:auto}
-section.tint{background:#F7F8FA}
-.services-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.8rem;margin-top:2rem}
-.svc-card{background:#FFF;border:1px solid #E5E7EB;overflow:hidden;transition:all .2s}
-.svc-card:hover{box-shadow:0 10px 30px rgba(0,0,0,.08);transform:translateY(-2px)}
-.card-img{height:170px;background-size:cover;background-position:center;background-color:#E5E7EB}
 .card-body{padding:1.3rem}
-.card-body h3{color:#0F766E;font-size:1.25rem;font-weight:700;margin-bottom:1rem;font-family:"Trebuchet MS", "Lucida Sans Unicode", sans-serif;sans-serif}
-.card-links a{display:block;color:#0F766E;font-size:.85rem;font-weight:600;padding:.2rem 0;line-height:1.45}
 .card-links a:hover{color:#14B8A6}
-.card-viewall{display:inline-block;color:#14B8A6;font-size:.72rem;font-weight:700;letter-spacing:.08em;margin-top:.8rem}
-table{width:100%;border-collapse:collapse;margin:1rem 0}
-table th{background:#1F2937;color:#FFF;text-align:left;padding:.7rem 1rem;font-size:.88rem}
-table td{padding:.65rem 1rem;border-bottom:1px solid #E5E7EB;font-size:.9rem}
-table tr:nth-child(even) td{background:#F9FAFB}
+.nav-item.has-dd{padding-bottom:1.5rem;margin-bottom:-1.5rem}
 details{background:#FFF;border:1px solid #E5E7EB;border-radius:8px;padding:.9rem 1.2rem;margin-bottom:.6rem;cursor:pointer}
-details summary{font-weight:600;color:#1F2937;list-style:none}
+.crumb-7b49 a{color:#FFF;text-decoration:underline;font-weight:600}
+table{width:100%;border-collapse:collapse;margin:1rem 0}
+.hero h1{font-family:"Trebuchet MS", "Lucida Sans Unicode", sans-serif;sans-serif;font-size:clamp(1.9rem,3.8vw,2.8rem);font-weight:700;letter-spacing:-.01em;margin-bottom:.9rem;line-height:1.15}
+.svc-card{background:#FFF;border:1px solid #E5E7EB;overflow:hidden;transition:all .2s}.topbar{height:64px}
+section.block p{margin-bottom:1rem;line-height:1.7;color:#111827;text-align:justify;hyphens:auto;-webkit-hyphens:auto}
 details[open] summary{margin-bottom:.7rem}
-details p{color:#111827;line-height:1.65;margin:0}
-.cta-box{background:#1F2937;color:#FFF;padding:2.5rem 2rem;text-align:center;border-radius:12px;margin:3rem 0}
-.cta-box h2{color:#FFF;margin-bottom:.6rem}
-.cta-box a{color:#14B8A6;font-weight:600}
-footer{background:#1F2937;color:#FFF;padding:2.5rem 2rem;text-align:center;font-size:.85rem;opacity:.88;margin-top:3rem}
+.logo-text .sub{font-size:1.05rem;color:#14B8A6}
 footer a{color:#14B8A6}
-@media(max-width:900px){.nav{display:none}.topbar{height:64px}.hero h1{font-size:1.6rem}}
+.services-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.8rem;margin-top:2rem}
+footer{background:#1F2937;color:#FFF;padding:2.5rem 2rem;text-align:center;font-size:.85rem;opacity:.88;margin-top:3rem}
+.cta-box-7b49{background:#1F2937;color:#FFF;padding:2.5rem 2rem;text-align:center;border-radius:12px;margin:3rem 0}
+.logo-area{display:flex;align-items:center;gap:.6rem;font-family:"Trebuchet MS", "Lucida Sans Unicode", sans-serif;system-ui,sans-serif}
+table tr:nth-child(even) td{background:#F9FAFB}
+.cta-box-7b49 a{color:#14B8A6;font-weight:600}
+.svc-card:hover{box-shadow:0 10px 30px rgba(0,0,0,.08);transform:translateY(-2px)}
+.nav-arrow{cursor:pointer;display:inline-block;margin-left:.3rem;font-size:.85rem;transition:transform .2s;background:none;border:none;padding:.2rem .4rem;color:inherit}
+.card-links a{display:block;color:#0F766E;font-size:.85rem;font-weight:600;padding:.2rem 0;line-height:1.45}
+.dd{display:none;position:absolute;top:100%;left:-1rem;background:#FFF;min-width:260px;padding:.8rem 0;box-shadow:0 10px 30px rgba(0,0,0,.2);border-top:3px solid #14B8A6;flex-direction:column;z-index:1011;max-height:420px;overflow-y:auto}
+.logo-text{font-weight:700;letter-spacing:.02em;line-height:1}
+details summary{font-weight:600;color:#1F2937;list-style:none}
+.nav-item.has-dd .dd a{padding:.5rem 1rem;color:inherit;text-decoration:none;font-size:.9rem;text-transform:none;letter-spacing:0}
+body{font-family:'IBM Plex Sans',system-ui,sans-serif;background:#F9FAFB;color:#111827;line-height:1.55}
+section.block h2{font-family:"Trebuchet MS", "Lucida Sans Unicode", sans-serif;sans-serif;font-size:1.6rem;color:#1F2937;margin-bottom:1.2rem;font-weight:700;letter-spacing:-.01em}
+.card-body h3{color:#0F766E;font-size:1.25rem;font-weight:700;margin-bottom:1rem;font-family:"Trebuchet MS", "Lucida Sans Unicode", sans-serif;sans-serif}
+.hero-cta{background:#14B8A6;color:#FFF;padding:.8rem 1.8rem;font-size:.82rem;font-weight:700;letter-spacing:.1em;display:inline-block}
+.dd a:hover{background:#F5F5F5;color:#0F766E}
+.nav-item.has-dd:hover .dd{display:flex}.hero h1{font-size:1.6rem}
+section.block{padding:3.5rem 0}
+.hero .tagline{font-size:1rem;opacity:.92;margin-bottom:1.5rem;max-width:560px}
+.nav-contact-btn{background:#0F766E;color:#FFF;padding:.6rem 1.4rem;font-size:.82rem;font-weight:600;letter-spacing:.05em}
+*{margin:0;padding:0;box-sizing:border-box}
+.nav-item.has-dd:hover .dd,.nav-item.has-dd.open .dd{display:flex}
+.container{max-width:1200px;margin:0 auto;padding:0 2rem}
+.crumb-7b49{font-size:.78rem;margin-bottom:1rem;letter-spacing:.03em;color:rgba(255,255,255,.85)}
+.nav-item{position:relative;font-size:.9rem;color:#FFF;cursor:pointer;padding:.8rem 0;white-space:nowrap}
+.nav-item.has-dd .nav-cat-link:hover{background:rgba(0,0,0,.06);text-decoration:underline;text-underline-offset:3px}
 
 .nav-item.has-dd{position:relative}
-.nav-item.has-dd .nav-cat-link{color:inherit;text-decoration:none;font-weight:inherit;padding:.5rem .4rem;border-radius:4px;transition:background .15s;display:inline-block}
-.nav-item.has-dd .nav-cat-link:hover{background:rgba(0,0,0,.06);text-decoration:underline;text-underline-offset:3px}
-.nav-item.has-dd .nav-arrow{display:inline-block;margin-left:.3rem;font-size:.85rem;transition:transform .2s}
+.cta-box-7b49 h2{color:#FFF;margin-bottom:.6rem}
+.hero{background:linear-gradient(135deg,#0F766E 0%,#1F2937 100%);min-height:400px;display:flex;align-items:center;padding:2.5rem 2rem;color:#FFF}
+.dd a{padding:.5rem 1.2rem;color:#111827;font-size:.85rem;display:block;white-space:normal}
+table th{background:#1F2937;color:#FFF;text-align:left;padding:.7rem 1rem;font-size:.88rem}
+.card-viewall{display:inline-block;color:#14B8A6;font-size:.72rem;font-weight:700;letter-spacing:.08em;margin-top:.8rem}
+.topbar{background:#1F2937;color:#FFF;padding:0 2rem;display:flex;justify-content:space-between;align-items:center;height:80px;position:sticky;top:0;z-index:1010}
+.hero-inner{max-width:900px;margin:0 auto;width:100%}
+.nav{display:flex;gap:1rem;align-items:center}
 .nav-item.has-dd:hover .nav-arrow{transform:rotate(180deg)}
+.nav-item.has-dd.open .nav-arrow{transform:rotate(180deg)}
+.card-img{height:170px;background-size:cover;background-position:center;background-color:#E5E7EB}
 
 .nav-item.has-dd .dd{display:none;position:absolute;top:100%;left:0;background:#FFF;color:#09090B;min-width:240px;padding:.5rem 0;box-shadow:0 8px 30px rgba(0,0,0,.15);border-radius:6px;z-index:9999;flex-direction:column}
-.nav-item.has-dd:hover .dd,.nav-item.has-dd.open .dd{display:flex}
-.nav-item.has-dd .dd a{padding:.5rem 1rem;color:inherit;text-decoration:none;font-size:.9rem;text-transform:none;letter-spacing:0}
+details p{color:#111827;line-height:1.65;margin:0}
+section.tint{background:#F7F8FA}
+.logo-text .main{font-size:1.05rem}
+.nav-item.has-dd .nav-cat-link{color:inherit;text-decoration:none;font-weight:inherit;padding:.5rem .4rem;border-radius:4px;transition:background .15s;display:inline-block}
+.crumb-7b49 a:hover{color:#14B8A6}
 .nav-item.has-dd .dd a:hover{background:rgba(0,0,0,.05)}
-.nav-arrow{cursor:pointer;display:inline-block;margin-left:.3rem;font-size:.85rem;transition:transform .2s;background:none;border:none;padding:.2rem .4rem;color:inherit}
-.nav-item.has-dd.open .nav-arrow{transform:rotate(180deg)}
-</style><style id="layout-override">
+table td{padding:.65rem 1rem;border-bottom:1px solid #E5E7EB;font-size:.9rem}</style><style>
 @media(min-width:901px){
   .content-area{display:flex!important;gap:1.5rem!important;align-items:flex-start!important}
-  .sidebar{width:240px!important;flex-shrink:0!important;background:#0A0A0A!important;color:#FFF!important;border-radius:10px!important;position:sticky!important;top:1rem!important;max-height:calc(100vh - 2rem)!important;overflow-y:auto!important}
-  .sidebar nav,.sidebar .nav{display:block!important}
-  .layout{display:grid!important;grid-template-columns:240px 1fr!important;gap:0!important;max-width:1200px!important;margin:0 auto!important;padding:2rem!important}
   aside{align-self:start!important}
   .navbar{display:flex!important;align-items:center!important;justify-content:space-between!important}
-  .navbar .nav{display:flex!important;flex-wrap:nowrap!important;gap:1.2rem!important;align-items:center!important;overflow:visible!important;justify-content:space-between!important}
+  .sidebar{width:240px!important;flex-shrink:0!important;background:#0A0A0A!important;color:#FFF!important;border-radius:10px!important;position:sticky!important;top:1rem!important;max-height:calc(100vh - 2rem)!important;overflow-y:auto!important}
+  .sidebar nav,.sidebar .nav{display:block!important}
   main{flex:1!important;min-width:0!important}
+  .layout{display:grid!important;grid-template-columns:240px 1fr!important;gap:0!important;max-width:1200px!important;margin:0 auto!important;padding:2rem!important}
   body{background:#FAFAFA!important;color:#18181B!important}
-}
-img{max-width:100%!important;height:auto!important}
-</style><link rel="stylesheet" href="/css/leaflet-7b49.css"><script src="/js/leaflet-7b49.js"></script><script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebPage", "@id": "https://orange-california.geotechnicalengineering1.biz/slopes-walls/", "url": "https://orange-california.geotechnicalengineering1.biz/slopes-walls/", "name": "Slopes & Walls in Orange California – USA", "inLanguage": "en", "description": "In Orange County, the category Slopes & Walls addresses the critical intersection of engineered earth retention and natural terrain stability. Local geolog", "isPartOf": {"@type": "WebSite", "@id":"https://orange-california.geotechnicalengineering1.biz/#website-7b49", "url": "https://orange-california.geotechnicalengineering1.biz"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://orange-california.geotechnicalengineering1.biz/"}, {"@type": "ListItem", "position": 2, "name": "Slopes & Walls", "item": "https://orange-california.geotechnicalengineering1.biz/slopes-walls/"}]}, {"@type": "ItemList", "name": "Slopes & Walls", "itemListElement": [{"@type": "ListItem", "position": 1, "url": "https://orange-california.geotechnicalengineering1.biz/slope-stability-analysis/", "name": "Slope stability analysis"}, {"@type": "ListItem", "position": 2, "url": "https://orange-california.geotechnicalengineering1.biz/debris-flow-analysis/", "name": "Debris flow analysis"}, {"@type": "ListItem", "position": 3, "url": "https://orange-california.geotechnicalengineering1.biz/retaining-wall-design/", "name": "Retaining wall design"}]}]}</script></head><body>
+  .navbar .nav{display:flex!important;flex-wrap:nowrap!important;gap:1.2rem!important;align-items:center!important;overflow:visible!important;justify-content:space-between!important}
+img{max-width:100%!important;height:auto!important}</style><link rel="stylesheet" href="/css/leaflet-7b49.css"><script src="/js/leaflet-7b49.js"></script><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"name":"Slopes & Walls in Orange California – USA","isPartOf":{"url":"https://orange-california.geotechnicalengineering1.biz","@type":"WebSite","@id":"https://orange-california.geotechnicalengineering1.biz/#website-7b49"},"description":"In Orange County, the category Slopes & Walls addresses the critical intersection of engineered earth retention and natural terrain stability. Local geolog","inLanguage":"en","url":"https://orange-california.geotechnicalengineering1.biz/slopes-walls/","@id":"https://orange-california.geotechnicalengineering1.biz/slopes-walls/","@type":"WebPage"},{"itemListElement":[{"@type":"ListItem","position":1,"item":"https://orange-california.geotechnicalengineering1.biz/","name":"Home"},{"@type":"ListItem","position":2,"item":"https://orange-california.geotechnicalengineering1.biz/slopes-walls/","name":"Slopes & Walls"}],"@type":"BreadcrumbList"},{"name":"Slopes & Walls","itemListElement":[{"url":"https://orange-california.geotechnicalengineering1.biz/slope-stability-analysis/","@type":"ListItem","position":1,"name":"Slope stability analysis"},{"url":"https://orange-california.geotechnicalengineering1.biz/debris-flow-analysis/","@type":"ListItem","position":2,"name":"Debris flow analysis"},{"url":"https://orange-california.geotechnicalengineering1.biz/retaining-wall-design/","@type":"ListItem","position":3,"name":"Retaining wall design"}],"@type":"ItemList"}]}</script></head><body>
 
 <div class="topbar">
     <div class="logo-area" data-logo-link="1" onclick="window.location.href=\'../\'" style="cursor:pointer;margin-right:2.5rem;flex-shrink:0">
@@ -105,12 +102,12 @@ img{max-width:100%!important;height:auto!important}
     </div>
     <div class="nav">
         <div class="nav-item has-dd"><a href="../investigation/" class="nav-cat-link">Investigation</a><button class="nav-arrow" type="button">▾</button><div class="dd"><a href="../exploratory-pit/">Exploratory test pit</a><a href="/">CPT (Cone Penetration Test)</a><a href="../standard-penetration/">SPT (Standard Penetration Test)</a></div></div><div class="nav-item has-dd"><a href="../in-situ-testing/" class="nav-cat-link">In-Situ Testing</a><button class="nav-arrow" type="button">▾</button><div class="dd"><a href="../field-density/">Field density test (sand cone method)</a><a href="../porchet-double-ring-infiltrometer/">Infiltration test (Porchet/Double-ring infiltrometer)</a><a href="../flat-dilatometer/">Flat Dilatometer Test (DMT)</a><a href="/">Plate load test (PLT)</a><a href="/">Ménard pressuremeter test (PMT)</a><a href="../undisturbed-sampling/">Undisturbed sampling (Shelby tube)</a><a href="/">Field permeability test (Lefranc/Lugeon)</a><a href="/">Field vane shear test (VST)</a></div></div><div class="nav-item has-dd"><a href="../laboratory/" class="nav-cat-link">Laboratory</a><button class="nav-arrow" type="button">▾</button><div class="dd"><a href="/">Grain size analysis (sieve + hydrometer)</a><a href="/">Residual soil characterization</a><a href="../soil-classification/">Soil classification (USCS/AASHTO)</a><a href="/">Unconfined compression test (UCS)</a><a href="../oedometer-consolidation/">Oedometer consolidation test</a><a href="../direct-shear/">Direct shear test</a><a href="../laboratory-cbr/">Laboratory CBR test</a><a href="../standard-modified/">Proctor test (Standard or Modified)</a><a href="/">Triaxial test</a><a href="../soil-mechanics-study/">Soil mechanics study</a><a href="/">Atterberg limits</a><a href="/">Laboratory permeability test (falling/constant head)</a></div></div><div class="nav-item has-dd"><a href="../geophysics/" class="nav-cat-link">Geophysics</a><button class="nav-arrow" type="button">▾</button><div class="dd"><a href="/">GPR (Ground Penetrating Radar) survey</a><a href="/">MASW / VS30 (shear wave velocity)</a><a href="../hvsr-microtremor-survey/">HVSR microtremor survey (Nakamura method)</a><a href="/">Electrical resistivity / VES (Vertical Electrical Sounding)</a><a href="/">Seismic tomography (refraction/reflection)</a></div></div><div class="nav-item has-dd"><a href="../foundations/" class="nav-cat-link">Foundations</a><button class="nav-arrow" type="button">▾</button><div class="dd"><a href="../differential-settlement-analysis/">Differential settlement analysis</a><a href="/">Settlement analysis</a><a href="../bearing-capacity-analysis/">Bearing capacity analysis</a><a href="/">Foundations on fill (analysis)</a><a href="/">Shallow foundation design</a><a href="/">Seismic foundation design</a><a href="/">Pile foundation design</a><a href="/">Raft/mat foundation design</a><a href="/">Micropile design</a><a href="/">Driven pile design</a><a href="../collapsible-soil-evaluation/">Collapsible soil evaluation</a><a href="../expansive-soil-evaluation/">Expansive soil evaluation</a><a href="../pile-skin-friction-vs/">Pile skin friction vs. end bearing analysis</a></div></div><div class="nav-item has-dd"><a href="../slopes-walls/" class="nav-cat-link">Slopes & Walls</a><button class="nav-arrow" type="button">▾</button><div class="dd"><a href="/">Soil erosion analysis</a><a href="../slope-stability-analysis/">Slope stability analysis</a><a href="/">Slope failure analysis</a><a href="../debris-flow-analysis/">Debris flow analysis</a><a href="/">Factor of safety (FS) calculation</a><a href="/">Geocell design</a><a href="/">Active/passive anchor design</a><a href="/">Slope stabilization design</a><a href="../retaining-wall-design/">Retaining wall design</a><a href="/">MSE (Mechanically Stabilized Earth) wall design</a><a href="/">Diaphragm wall design</a><a href="/">Sheet pile wall design</a><a href="/">Landslide assessment</a><a href="/">Geotechnical slope monitoring (monthly)</a></div></div><div class="nav-item has-dd"><a href="../ground-improvement/" class="nav-cat-link">Ground improvement</a><button class="nav-arrow" type="button">▾</button><div class="dd"><a href="../unsaturated-soil-analysis/">Unsaturated soil analysis</a><a href="/">Stone column design</a><a href="/">Dynamic compaction design</a><a href="../deep-soil-mixing/">Deep Soil Mixing (DSM) design</a><a href="/">Geotechnical drainage design</a><a href="../prefabricated-vertical-drain/">Prefabricated vertical drain (PVD) design</a><a href="/">Grouting design</a><a href="/">Jet grouting design</a><a href="../preloading-design/">Preloading design (without surcharge)</a><a href="/">Preloading with surcharge design</a><a href="../vibrocompaction-design/">Vibrocompaction design</a><a href="/">Geogrid specification</a><a href="/">Geomembrane specification</a><a href="/">Geotextile specification</a><a href="../lime-cement-stabilization/">Lime and cement stabilization</a><a href="../landfill-geotechnics/">Landfill geotechnics</a><a href="../geotechnical-instrumentation/">Geotechnical instrumentation (design and installation)</a><a href="../organic-soil-management/">Organic soil management</a><a href="/">Contaminated soil remediation</a></div></div><div class="nav-item has-dd"><a href="../underground-excavations/" class="nav-cat-link">Underground Excavations</a><button class="nav-arrow" type="button">▾</button><div class="dd"><a href="/">Geotechnical analysis for soft soil tunnels</a><a href="/">Geotechnical design of deep excavations</a><a href="../geotechnical-excavation-monitoring/">Geotechnical excavation monitoring</a></div></div><div class="nav-item has-dd"><a href="../roadway/" class="nav-cat-link">Roadway</a><button class="nav-arrow" type="button">▾</button><div class="dd"><a href="/">Flexible pavement design</a><a href="/">Rigid pavement design</a><a href="../road-subgrade-design/">Road subgrade design</a><a href="/">Road embankment design</a><a href="../geotechnical-road-drainage/">Geotechnical road drainage</a><a href="/">Soil stabilization for roads</a><a href="/">CBR study for road design</a><a href="/">Existing pavement evaluation</a><a href="../pavement-subgrade-design/">Road geotechnics (pavement/subgrade design)</a></div></div><div class="nav-item has-dd"><a href="../seismic/" class="nav-cat-link">Seismic</a><button class="nav-arrow" type="button">▾</button><div class="dd"><a href="/">Seismic amplification analysis</a><a href="/">Soil liquefaction analysis</a><a href="/">Site response analysis</a><a href="../base-isolation-seismic-design/">Base isolation seismic design</a><a href="../seismic-microzonation/">Seismic microzonation</a></div></div>
-        <a class="nav-contact-btn" href="mailto:contact@geotechnicalengineering1.biz">CONTACT</a>
+        <a class="nav-contact-btn" href="mailto:contact@geotechnicalengineering1.biz">INQUIRE</a>
     </div>
 </div>
 
 <header class="hero"><div class="hero-inner">
-    <div class="crumb"><a href="/">Home</a> › <span>Seismic</span> › <span>Slopes & Walls</span></div>
+    <div class="crumb-7b49"><a href="/">Home</a> › <span>Seismic</span> › <span>Slopes & Walls</span></div>
     <h1>Slopes & Walls in Orange California</h1>
     <p class="tagline">Knowledgeable. Thorough. Resourceful.</p>
     <a class="hero-cta" href="#main-content">LEARN MORE</a>
@@ -148,18 +145,18 @@ img{max-width:100%!important;height:auto!important}
 
 
 
-<section class="block"><div class="container"><h2>Methodology and scope</h2><div>A recent project on a 10-story medical office near the 55 freeway required isolators to keep the building operational after a M7.0 event. The geotechnical challenge was the variable stiffness of the Old Alluvium across the site. We ran a suite of in-situ and lab tests to capture the dynamic properties. Field measurements included shear-wave velocity profiling and resonant-column tests on undisturbed samples. The design team used these data to set the target isolation period (typically 2.5 to 3.5 seconds) and the damping ratio for the lead-rubber bearings. We also performed site-response analyses to confirm that the isolated structure would not amplify long-period motions from the deep basin. Every base isolation seismic design in Orange California must account for the 2% in 50-year hazard level prescribed by ASCE 7-22. Our reports include the acceleration response spectra at the isolator level, the expected displacement at the design-basis earthquake, and the residual drift after the maximum considered earthquake. These deliverables allow the structural engineer to size the isolators and verify the clearance gap around the moat.</div></div></section><section class="block" style="padding:1.5rem 2rem"><div class="container" style="max-width:60%;margin:0 auto"><figure style="margin:0;border-radius:10px;overflow:hidden;border:1px solid #E5E7EB"><figcaption style="padding:.5rem .8rem;font-size:.78rem;color:#64748B;background:#FAFAF7">Technical reference — Orange California</figcaption></figure></div></section><section class="block tint"><div class="container"><h2>Local considerations</h2><p>The alluvial deposits beneath Orange California are not uniformly stiff. Layers of loose sand and soft silt can appear within the top 15 meters. These lenses may amplify motion at the isolation frequency or cause differential settlement under the isolator supports. Another risk is liquefaction in saturated granular layers near the Santa Ana River. If the soil beneath the isolator loses strength during shaking, the bearing pad can tilt or punch into the ground. Our base isolation seismic design process includes liquefaction hazard evaluation using the Youd-Idriss method and cyclic resistance ratios from SPT data. We also model the kinematic interaction between the foundation and the surrounding soil. Ignoring these strain-dependent effects can lead to underestimating the isolator displacement demand by 30% or more.</p></div></section>
-    <section class="block mid-cta" style="padding:2rem 0">
+<section class="block"><div class="container"><h2>Process overview</h2><div>A recent project on a 10-story medical office near the 55 freeway required isolators to keep the building operational after a M7.0 event. The geotechnical challenge was the variable stiffness of the Old Alluvium across the site. We ran a suite of in-situ and lab tests to capture the dynamic properties. Field measurements included shear-wave velocity profiling and resonant-column tests on undisturbed samples. The design team used these data to set the target isolation period (typically 2.5 to 3.5 seconds) and the damping ratio for the lead-rubber bearings. We also performed site-response analyses to confirm that the isolated structure would not amplify long-period motions from the deep basin. Every base isolation seismic design in Orange California must account for the 2% in 50-year hazard level prescribed by ASCE 7-22. Our reports include the acceleration response spectra at the isolator level, the expected displacement at the design-basis earthquake, and the residual drift after the maximum considered earthquake. These deliverables allow the structural engineer to size the isolators and verify the clearance gap around the moat.</div></div></section><section class="block" style="padding:1.5rem 2rem"><div class="container" style="max-width:60%;margin:0 auto"><figure style="margin:0;border-radius:10px;overflow:hidden;border:1px solid #E5E7EB"><figcaption style="padding:.5rem .8rem;font-size:.78rem;color:#64748B;background:#FAFAF7">Technical reference — Orange California</figcaption></figure></div></section><section class="block tint"><div class="container"><h2>Local context</h2><p>The alluvial deposits beneath Orange California are not uniformly stiff. Layers of loose sand and soft silt can appear within the top 15 meters. These lenses may amplify motion at the isolation frequency or cause differential settlement under the isolator supports. Another risk is liquefaction in saturated granular layers near the Santa Ana River. If the soil beneath the isolator loses strength during shaking, the bearing pad can tilt or punch into the ground. Our base isolation seismic design process includes liquefaction hazard evaluation using the Youd-Idriss method and cyclic resistance ratios from SPT data. We also model the kinematic interaction between the foundation and the surrounding soil. Ignoring these strain-dependent effects can lead to underestimating the isolator displacement demand by 30% or more.</p></div></section>
+    <section class="block mid-cta-7b49" style="padding:2rem 0">
       <div style="max-width:720px;margin:0 auto;background:linear-gradient(135deg,#14B8A615,#14B8A608);border-left:4px solid #14B8A6;padding:1.5rem 1.8rem;border-radius:6px;text-align:center">
         <h3 style="margin:0 0 .4rem;font-size:1.15rem;color:#1E293B;text-align:center">Need a geotechnical assessment?</h3>
         <p style="margin:0 0 1rem;color:#64748B;font-size:.92rem;text-align:center">Reply within 24h.</p>
         <a href="mailto:contact@geotechnicalengineering1.biz" style="display:inline-block;background:#14B8A6;color:#FFF !important;padding:1rem 2rem;border-radius:8px;text-decoration:none;font-weight:800;font-size:1.05rem;box-shadow:0 4px 12px rgba(0,0,0,.15)">Email: contact@geotechnicalengineering1.biz</a>
       </div>
-    </section><section class="block"><div class="container"><h2>Applicable standards</h2><p>ASCE 7-22 Minimum Design Loads and Associated Criteria for Buildings, IBC 2021 International Building Code, Chapter 16 & 18, ASTM D1586-18 Standard Test Method for <a href="../standard-penetration/" data-interlink="1">Standard Penetration Test</a> (SPT), NCEER 1997 Liquefaction Evaluation Guidelines (Youd & Idriss)</p></div></section>
+    </section><section class="block"><div class="container"><h2>Reference standards</h2><p>ASCE 7-22 Minimum Design Loads and Associated Criteria for Buildings, IBC 2021 International Building Code, Chapter 16 & 18, ASTM D1586-18 Standard Test Method for <a href="../standard-penetration/" data-interlink="1">Standard Penetration Test</a> (SPT), NCEER 1997 Liquefaction Evaluation Guidelines (Youd & Idriss)</p></div></section>
 
 <section class="block tint"><div class="container"><h2>Technical parameters</h2><div style="max-width:700px;margin:1.5rem auto;border-left:4px solid #14B8A6;border-radius:6px;overflow:hidden;background:#FFF;box-shadow:0 1px 3px rgba(0,0,0,.05)"><table style="width:100%;border-collapse:collapse;font-size:.92rem"><thead><tr style="background:#14B8A6;color:#FFF"><th style="padding:.75rem 1rem;text-align:left;font-weight:600">Parameter</th><th style="padding:.75rem 1rem;text-align:left;font-weight:600">Typical value</th></tr></thead><tbody><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Design-basis earthquake return period</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">475 years (ASCE 7-22)</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Maximum considered earthquake probability</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">2% in 50 years</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Target isolated period range</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">2.5 to 3.5 seconds</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Typical isolator damping ratio</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">15% to 25% (lead-rubber bearings)</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Required Vs30 measurement depth</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">30 m (ASTM D4428 / MASW)</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Site class for Orange CA alluvium</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">D (stiff soil) to C (dense soil)</td></tr></tbody></table></div></div></section>
 
-<section class="block"><div class="container"><h2>Frequently asked questions</h2><details><summary>What is the typical cost for a base isolation seismic design study in Orange California?</summary><p>The cost for a complete geotechnical and seismic design package ranges from US$4,700 to US$7,170, depending on the number of borings, lab tests, and complexity of the <a href="/" data-interlink="1">site response <a href="/" data-interlink="1">analysis</a></a>.</p></details><details><summary>How is the design-basis earthquake defined for base isolation in Orange California?</summary><p>We follow ASCE 7-22 to compute the risk-targeted maximum considered earthquake (MCE_R) and the design-basis earthquake (DBE). The site-specific ground motion is deaggregated from the USGS seismic hazard model, accounting for nearby faults such as the San Jacinto and Elsinore. The DBE is defined as two-thirds of the MCE_R spectral accelerations.</p></details><details><summary>What soil conditions make base isolation less effective in Orange California?</summary><p>Soft clay layers or loose sands that produce a natural site period close to the target isolation period can reduce the effectiveness. In such cases, the soil and the structure may resonate, increasing drift. A deep soil-column response <a href="/" data-interlink="1">analysis</a> is needed to identify these conditions and adjust the isolator properties or consider a different retrofit strategy.</p></details><details><summary>Do I need a permit from the City of Orange for a base isolation retrofit?</summary><p>Yes. The City of Orange requires plan review and approval under the California Building Code (CBC). The geotechnical report must include site-specific seismic parameters, soil profiles, and isolator support criteria. We prepare the geotechnical documentation in the format required by the city building department, including the statement of special inspections for the isolator installation.</p></details></div></section>
+<section class="block"><div class="container"><h2>Q&A</h2><details><summary>What is the typical cost for a base isolation seismic design study in Orange California?</summary><p>The cost for a complete geotechnical and seismic design package ranges from US$4,700 to US$7,170, depending on the number of borings, lab tests, and complexity of the <a href="/" data-interlink="1">site response <a href="/" data-interlink="1">analysis</a></a>.</p></details><details><summary>How is the design-basis earthquake defined for base isolation in Orange California?</summary><p>We follow ASCE 7-22 to compute the risk-targeted maximum considered earthquake (MCE_R) and the design-basis earthquake (DBE). The site-specific ground motion is deaggregated from the USGS seismic hazard model, accounting for nearby faults such as the San Jacinto and Elsinore. The DBE is defined as two-thirds of the MCE_R spectral accelerations.</p></details><details><summary>What soil conditions make base isolation less effective in Orange California?</summary><p>Soft clay layers or loose sands that produce a natural site period close to the target isolation period can reduce the effectiveness. In such cases, the soil and the structure may resonate, increasing drift. A deep soil-column response <a href="/" data-interlink="1">analysis</a> is needed to identify these conditions and adjust the isolator properties or consider a different retrofit strategy.</p></details><details><summary>Do I need a permit from the City of Orange for a base isolation retrofit?</summary><p>Yes. The City of Orange requires plan review and approval under the California Building Code (CBC). The geotechnical report must include site-specific seismic parameters, soil profiles, and isolator support criteria. We prepare the geotechnical documentation in the format required by the city building department, including the statement of special inspections for the isolator installation.</p></details></div></section>
 
 
 
@@ -170,7 +167,7 @@ img{max-width:100%!important;height:auto!important}
     var el=document.getElementById('map-leaflet');
     if(!el)return;
     var map=L.map(el).setView([33.750631,-117.8722311],12);
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'© OpenStreetMap',maxZoom:18}).addTo(map);
+    L.tileLayer('https://{s}.tile-7b49.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'© OpenStreetMap',maxZoom:18}).addTo(map);
     L.marker([33.750631,-117.8722311]).addTo(map).bindPopup("Orange California").openPopup();
   }
   if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',init);}else{init();}
